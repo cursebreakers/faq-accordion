@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [On GitHub](https://github.com/cursebreakers/faq-accordion)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [On GitHub Pages](https://cursebreakers.github.io/faq-accordion)
 
 ## Process
 
