@@ -86,7 +86,12 @@ h2 {
 }
 
 .expander:hover h2 {
-  color: var(--purp600);
+  color: var(--purp600);	
+}
+		
+.expander:focus {
+  outline: 2px solid var(--purp950);
+  border-radius: 18px;
 }
 
 .accordionDiv p {

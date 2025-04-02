@@ -1,3 +1,5 @@
+// client.js
+
 // Expands/closes the .accordionDiv > p tags
 function toggleAccordion(event) {
   const accordionDiv = event.target.closest('.accordionDiv');
