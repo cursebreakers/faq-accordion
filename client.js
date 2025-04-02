@@ -1,10 +1,7 @@
-// client.js
-
 // Expands/closes the .accordionDiv > p tags
 function toggleAccordion(event) {
-
   const accordionDiv = event.target.closest('.accordionDiv');
-
+  
   accordionDiv.classList.toggle('active');
 
   const button = accordionDiv.querySelector('.accordionButton');
@@ -23,6 +20,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
   expanders.forEach(expander => {
     expander.addEventListener('click', toggleAccordion);
+    expander.addEventListener('keydown', function(event) {
+
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault(); 
+        toggleAccordion(event); 
+      }
+    });
   });
 });
 
